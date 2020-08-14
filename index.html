@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#000000">
+	<link rel="stylesheet" href="style.css">
+	<title>Fifth Task</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="text">
+			<p class="text__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae neque delectus, incidunt
+				iure enim quae maiores. Est voluptates distinctio minima ipsa, esse ut nam mollitia molestias harum? Animi,
+				suscipit?</p>
+			<p class="text__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae neque delectus,
+				incidunt
+				iure enim quae maiores. Est voluptates distinctio minima ipsa, esse ut nam mollitia molestias harum? Animi,
+				suscipit?</p>
+			<p class="text__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae neque delectus, incidunt
+				iure enim quae maiores. Est voluptates distinctio minima ipsa, esse ut nam mollitia molestias harum? Animi,
+				suscipit?</p>
+			<p class="text__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae neque delectus, incidunt
+				iure enim quae maiores. Est voluptates distinctio minima ipsa, esse ut nam mollitia molestias harum? Animi,
+				suscipit?</p>
+			<p class="text__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id vitae neque delectus, incidunt
+				iure enim quae maiores. Est voluptates distinctio minima ipsa, esse ut nam mollitia molestias harum? Animi,
+				suscipit?</p>
+		</div>
+		<form class="panel" id="myForm">
+			<div class="panel__block">
+				<label>Выберите размер шрифта <input id="size" type="range" min="12" max="24" value="18"></label>
+			</div>
+			<div class="panel__block">
+				<label>Выберите цвет шрифта <input id="color" type="color" value="#000000"></label>
+			</div>
+			<div class="panel__block">
+				<label>Укажите жирность шрифта <input id="font-weight" type="range" min="100" max="900" value="400"
+						step="100"></label>
+			</div>
+			<div class="panel__block">
+				<p class="panel__block__text">Выберите начертание текста</p>
+				<input id="font-style1" type="radio" name="fstyle" value="normal" checked>
+				<label for="font-style1">normal</label>
+				<input id="font-style2" type="radio" name="fstyle" value="italic">
+				<label for="font-style2">italic</label>
+				<input id="font-style3" type="radio" name="fstyle" value="oblique">
+				<label for="font-style3">oblique</label>
+			</div>
+			<div class="panel__block">
+				<label> Межбуквенное растояние <input id="letter-spacing" type="range" min="0" max="4" value="0"
+						step="1"></label>
+			</div>
+			<div class="panel__block">
+				<label> Межстрочное растояние <input id="line-height" type="range" min="1" max="1.5" value="1.3"
+						step=".1"></label>
+			</div>
+			<input type="button" class="panel__reset" value="Сброс" id="btn">
+		</form>
+	</div>
+
+
+	<script src="jquery-3.5.1.min.js"></script>
+	<!-- <script src="script-js.js"></script> -->
+	<script src="script-jquery.js"></script>
+</body>
+
+</html>
